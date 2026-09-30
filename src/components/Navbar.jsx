@@ -39,8 +39,8 @@ const Navbar = () => {
             <SocialLinks groupClass="nav-icon"/>
             
             <div className="mobile-menu">
-                <div className="mobile-menu-toggle">
-                    <i className="fa-solid fa-bars" onClick={handleToggle}></i>
+                <div className="mobile-menu-toggle" onClick={handleToggle}>
+                    <i className="fa-solid fa-bars"></i>
                     <div className={isToggled ? "mobile-menu-items active" : "mobile-menu-items"}>
                         <PageLinks groupClass="mobile-menu-list" />
                     </div>
